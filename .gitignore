@@ -24,6 +24,9 @@
 #xcode
 *.xcodeproj/
 
+#clion
+.idea/
+
 #other stuff (windows stuff, qt moc stuff, etc)
 Release_MD/
 Release/
@@ -44,8 +47,16 @@ Makefile
 
 #IDE Files
 *.iml
-.idea
 cmake-build-debug
+
+#python
+__pycache__
+
+#sphinx
+/docs/sphinx/_build/*
+!/docs/sphinx/_build/.gitignore
+!/docs/sphinx/Makefile
+>>>>>>> upstream/master
 
 #random useless file stuff
 *.dmg
